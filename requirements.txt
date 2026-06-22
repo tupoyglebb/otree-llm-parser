@@ -1,0 +1,10 @@
+# The parser itself uses only the Python standard library
+# (dataclasses, pathlib, zipfile, tarfile, ast, importlib, re, unittest.mock).
+
+# Optional but recommended — cleaner extraction of text from HTML templates.
+# Without it, the parser falls back to a regex-based extractor.
+beautifulsoup4>=4.9
+
+# Optional — only needed if you want dynamic model/page import instead of the
+# AST-based fallback (i.e. to run against a fully installed oTree project):
+# otree>=5.0

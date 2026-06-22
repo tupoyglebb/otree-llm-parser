@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool outputs
+questionnaires_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rendered docs (README is the source of truth)
+README.pdf
